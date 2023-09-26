@@ -1,0 +1,122 @@
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F2EAE2;
+    height: 100%;
+    max-width: 100vw;
+    margin: 100px auto;
+}
+.container{
+    align-items:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container > img{
+    height: 450px;
+    width: 300px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.container .infos{
+    height: 450px;
+    width: 300px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: white;
+    padding: 32px;
+}
+
+.container .infos .perfu{
+    padding-right: 140px;
+    color: #6C7289;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;    
+}
+
+.container .infos h1{
+    color: #1C232B;
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    line-height: 32px;
+    word-wrap: break-word;
+    margin-top: 15px;
+    margin-bottom: 19px;
+}
+
+.container .infos .text{
+    color: #6C7289;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 23px;
+    word-wrap: break-word;
+    margin-bottom: 29px;
+}
+
+.container .infos .money{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container .infos .money .txtnum{
+    margin-right: 19px;
+    color: #3D8168;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+}
+
+.container .infos .money .txtnum2{
+    color: #6C7289;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Fraunces', serif;
+    text-decoration: line-through;  
+}
+
+.container .infos button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #3D8168;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 63px;
+    cursor: pointer;
+}
+
+.container .infos button:hover{
+    background-color: #1A4032;
+}
+
+
+
+@media (max-width:890px) {
+
+    body{
+        margin: 30px auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
