@@ -13,7 +13,7 @@ body{
     margin: 100px auto;
 }
 .container{
-    align-items:center ;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +85,7 @@ body{
     color: #6C7289;
     font-size: 13px;
     font-weight: 500;
-    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: line-through;  
 }
 
